@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: outfit;
+}
+
+* {
+  font-family: outfit;
+  color: #414141;
+}
+.latest img,
+.best img,
+.collection img {
+  transition: 0.3s;
+}
+.latest img:hover,
+.best img:hover,
+.collection img:hover {
+  transform: scale(1.05);
+}
+h2 span:first-of-type,
+h2 span:first-of-type {
+  color: #797878;
+}
+@media (max-width: 768px) {
+  .contact .row {
+    flex-direction: column;
+  }
+}
+.contact-btn:hover {
+  background-color: #000000 !important;
+  color: white !important;
+}
+form input {
+  border: none;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+}
+@media (max-width: 991px) {
+  .payment .row {
+    flex-direction: column !important;
+  }
+}
+@media (min-width: 991px) {
+  .payment-right {
+    top: 50% !important;
+  }
+}
+@media (max-width: 991px) {
+  .product-details img {
+    width: 100% !important;
+  }
+}

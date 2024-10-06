@@ -1,0 +1,42 @@
+.dash {
+  width: 50px;
+  height: 2px;
+  background-color: #414141;
+  display: inline-block;
+}
+.first .container {
+  border: 1px solid black;
+}
+section {
+  padding-block: 20px;
+}
+@media (max-width: 768px) {
+  .first .row {
+    flex-direction: column;
+  }
+}
+.services svg {
+  width: 50px;
+  height: 50px;
+}
+.services {
+  padding-block: 50px;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: -5px;
+}
+input:focus {
+  outline: none;
+}
+.services input {
+  width: 400px;
+  height: 45px;
+}
+.cards {
+  cursor: pointer;
+}
